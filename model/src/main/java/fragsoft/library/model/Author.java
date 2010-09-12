@@ -59,5 +59,10 @@ public class Author implements Serializable {
 		}
 		books.add(book);
 	}
+
+	@Override
+	public String toString() {
+		return "Author [name=" + name + "]";
+	}
 	
 }

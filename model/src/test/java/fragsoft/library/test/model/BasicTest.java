@@ -29,8 +29,8 @@ public class BasicTest {
 		EntityTransaction trx = em.getTransaction();
 		trx.begin();
 		Author author = new Author("Anonymous");
-		Book book1 = new Book("Book1", author);
-		Book book2 = new Book("Book2", author);
+		Book book1 = new Book("Book1");
+		Book book2 = new Book("Book2");
 		author.addBook(book1);
 		author.addBook(book2);
 		em.persist(author);

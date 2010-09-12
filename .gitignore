@@ -1,5 +1,6 @@
 target
 test-output
+index
 .settings
 .classpath
 .project
